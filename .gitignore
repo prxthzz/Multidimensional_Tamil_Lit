@@ -1,0 +1,73 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-llm/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated ML / Model Files
+models/
+model_cache/
+checkpoints/
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Private / Local Data
+private_data/
+local_data/
+.local/
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.egg-info/

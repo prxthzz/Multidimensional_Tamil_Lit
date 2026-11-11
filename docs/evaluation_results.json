@@ -1,0 +1,53 @@
+{
+  "benchmark_queries_count": 15,
+  "evaluation_timestamp": "2026-09-27T09:07:59Z",
+  "status": "EVALUATED_AND_VERIFIED",
+  "system_configuration": "Hybrid Candidate Fusion (BM25 + Dense Vector) + CrossEncoder Reranker",
+  "metrics": {
+    "configuration": "4. Full Pipeline (Hybrid + CrossEncoder Rerank)",
+    "precision_at_5": 0.08,
+    "recall_at_5": 0.0667,
+    "mrr": 0.0833,
+    "ndcg_at_5": 0.0954,
+    "unsupported_claim_rate_pct": 0.0,
+    "mean_latency_ms": 230.0
+  },
+  "ablation_comparison": [
+    {
+      "configuration": "1. Lexical/BM25 Only",
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_5": 0.0,
+      "unsupported_claim_rate_pct": 0.0,
+      "mean_latency_ms": 55.74
+    },
+    {
+      "configuration": "2. Semantic Vector Only",
+      "precision_at_5": 0.0267,
+      "recall_at_5": 0.0133,
+      "mrr": 0.03,
+      "ndcg_at_5": 0.0545,
+      "unsupported_claim_rate_pct": 0.0,
+      "mean_latency_ms": 50.89
+    },
+    {
+      "configuration": "3. Hybrid Candidate Fusion",
+      "precision_at_5": 0.0933,
+      "recall_at_5": 0.0733,
+      "mrr": 0.1056,
+      "ndcg_at_5": 0.1287,
+      "unsupported_claim_rate_pct": 0.0,
+      "mean_latency_ms": 55.78
+    },
+    {
+      "configuration": "4. Full Pipeline (Hybrid + CrossEncoder Rerank)",
+      "precision_at_5": 0.08,
+      "recall_at_5": 0.0667,
+      "mrr": 0.0833,
+      "ndcg_at_5": 0.0954,
+      "unsupported_claim_rate_pct": 0.0,
+      "mean_latency_ms": 230.0
+    }
+  ]
+}

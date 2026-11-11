@@ -1,0 +1,145 @@
+{
+  "benchmark_info": {
+    "title": "Multi-Dimensional Tamil Knowledge System Benchmark Dataset",
+    "version": "1.0.0",
+    "total_queries": 15,
+    "description": "Gold-standard ground truth queries for evaluating cross-domain semantic retrieval and evidence classification."
+  },
+  "queries": [
+    {
+      "id": "Q01",
+      "query": "Water cycle and rain",
+      "language": "english",
+      "canonical_concept": "Water Cycle",
+      "expected_domain": "Environment",
+      "relevant_verse_ids": ["thirukkural_11", "thirukkural_12", "thirukkural_13", "thirukkural_14", "thirukkural_15", "thirukkural_16", "thirukkural_17", "thirukkural_18", "thirukkural_19", "thirukkural_20"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q02",
+      "query": "Astrophysics and stars",
+      "language": "english",
+      "canonical_concept": "Astrophysics",
+      "expected_domain": "Astronomy",
+      "relevant_verse_ids": ["thiruvarutpa_001", "thirukkural_1116"],
+      "expected_relationship": "METAPHORICAL"
+    },
+    {
+      "id": "Q03",
+      "query": "விண்வெளி இயற்பியல்",
+      "language": "tamil",
+      "canonical_concept": "Astrophysics",
+      "expected_domain": "Astronomy",
+      "relevant_verse_ids": ["thiruvarutpa_001"],
+      "expected_relationship": "METAPHORICAL"
+    },
+    {
+      "id": "Q04",
+      "query": "vinveli iyarpiyal",
+      "language": "tanglish",
+      "canonical_concept": "Astrophysics",
+      "expected_domain": "Astronomy",
+      "relevant_verse_ids": ["thiruvarutpa_001"],
+      "expected_relationship": "METAPHORICAL"
+    },
+    {
+      "id": "Q05",
+      "query": "Crop cultivation and farming",
+      "language": "english",
+      "canonical_concept": "Crop Cultivation & Farming",
+      "expected_domain": "Agriculture",
+      "relevant_verse_ids": ["thirukkural_1031", "thirukkural_1032", "thirukkural_1033", "thirukkural_1034", "thirukkural_1035", "thirukkural_1036", "thirukkural_1037", "thirukkural_1038", "thirukkural_1039", "thirukkural_1040"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q06",
+      "query": "Preventive medicine and diagnosis",
+      "language": "english",
+      "canonical_concept": "Preventive Healthcare & Diagnosis",
+      "expected_domain": "Medicine",
+      "relevant_verse_ids": ["thirukkural_941", "thirukkural_942", "thirukkural_943", "thirukkural_944", "thirukkural_945", "thirukkural_946", "thirukkural_947", "thirukkural_948", "thirukkural_949", "thirukkural_950"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q07",
+      "query": "Time dilation and relativity",
+      "language": "english",
+      "canonical_concept": "Time Dilation",
+      "expected_domain": "Physics",
+      "relevant_verse_ids": ["thirukkural_334", "thirukkural_335"],
+      "expected_relationship": "METAPHORICAL"
+    },
+    {
+      "id": "Q08",
+      "query": "Knowledge representation and truth",
+      "language": "english",
+      "canonical_concept": "Knowledge & Logical Reasoning",
+      "expected_domain": "Computer Science",
+      "relevant_verse_ids": ["thirukkural_421", "thirukkural_422", "thirukkural_423", "thirukkural_355"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q09",
+      "query": "Quantum superstring multiverse theory",
+      "language": "english",
+      "canonical_concept": "Quantum Multiverse",
+      "expected_domain": "Physics",
+      "relevant_verse_ids": [],
+      "expected_relationship": "UNSUPPORTED"
+    },
+    {
+      "id": "Q10",
+      "query": "neer suzharchi",
+      "language": "tanglish",
+      "canonical_concept": "Water Cycle",
+      "expected_domain": "Environment",
+      "relevant_verse_ids": ["thirukkural_11", "thirukkural_12", "thirukkural_13", "thirukkural_14", "thirukkural_15"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q11",
+      "query": "uzhavu thozhil",
+      "language": "tanglish",
+      "canonical_concept": "Crop Cultivation & Farming",
+      "expected_domain": "Agriculture",
+      "relevant_verse_ids": ["thirukkural_1031", "thirukkural_1032"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q12",
+      "query": "மருத்துவம்",
+      "language": "tamil",
+      "canonical_concept": "Preventive Healthcare & Diagnosis",
+      "expected_domain": "Medicine",
+      "relevant_verse_ids": ["thirukkural_941", "thirukkural_948"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q13",
+      "query": "Gravity and spacetime curvature",
+      "language": "english",
+      "canonical_concept": "Gravity",
+      "expected_domain": "Physics",
+      "relevant_verse_ids": ["thirukkural_1032"],
+      "expected_relationship": "METAPHORICAL"
+    },
+    {
+      "id": "Q14",
+      "query": "Atmosphere and wind dynamics",
+      "language": "english",
+      "canonical_concept": "Atmosphere & Wind",
+      "expected_domain": "Environment",
+      "relevant_verse_ids": ["thirukkural_18"],
+      "expected_relationship": "THEMATIC"
+    },
+    {
+      "id": "Q15",
+      "query": "Nanotechnology semiconductor fabrication",
+      "language": "english",
+      "canonical_concept": "Nanotechnology",
+      "expected_domain": "Physics",
+      "relevant_verse_ids": [],
+      "expected_relationship": "UNSUPPORTED"
+    }
+  ]
+}

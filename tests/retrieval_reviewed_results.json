@@ -1,0 +1,90 @@
+{
+  "evaluation_method": {
+    "type": "manual_review",
+    "relevance_labels": {
+      "2": "directly relevant",
+      "1": "indirectly related",
+      "0": "not relevant"
+    },
+    "top_k": 5,
+    "query_count": 3,
+    "result_count": 15
+  },
+  "cases": [
+    {
+      "query": "முயற்சி",
+      "results": [
+        {
+          "source_id": "thirukkural_963",
+          "relevance": 1
+        },
+        {
+          "source_id": "thiruvarutpa_533",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_331",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_1060",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_362",
+          "relevance": 0
+        }
+      ]
+    },
+    {
+      "query": "அறிவு",
+      "results": [
+        {
+          "source_id": "thirukkural_847",
+          "relevance": 2
+        },
+        {
+          "source_id": "thiruvarutpa_533",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_975",
+          "relevance": 1
+        },
+        {
+          "source_id": "thirukkural_611",
+          "relevance": 1
+        },
+        {
+          "source_id": "thirukkural_27",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "query": "அன்பு",
+      "results": [
+        {
+          "source_id": "thiruvarutpa_533",
+          "relevance": 2
+        },
+        {
+          "source_id": "thirukkural_611",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_27",
+          "relevance": 0
+        },
+        {
+          "source_id": "thirukkural_251",
+          "relevance": 1
+        },
+        {
+          "source_id": "thirukkural_1072",
+          "relevance": 1
+        }
+      ]
+    }
+  ]
+}

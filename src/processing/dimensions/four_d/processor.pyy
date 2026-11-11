@@ -1,0 +1,35 @@
+from typing import Any, Dict
+
+from processing.dimensions.base import DimensionProcessor
+
+
+class FourDProcessor(DimensionProcessor):
+    """Four-dimensional conceptual processing."""
+
+    dimension = "4D"
+
+    def process(self, concept: Dict[str, Any]) -> Dict[str, Any]:
+        name = concept.get("name", "")
+        keywords = concept.get("keywords", [])
+        context_terms = concept.get("context_terms", [])
+
+        axes = [
+            name,
+            keywords[0] if keywords else "property",
+            context_terms[0] if context_terms else "context",
+            "time",
+        ]
+
+        return {
+            "dimension": self.dimension,
+            "concept": name,
+            "representation_type": "spatiotemporal_structure",
+            "axes": axes,
+            "properties": {
+                "axis_count": 4,
+                "spatial_axes": 3,
+                "temporal_axis": "time",
+                "keyword_count": len(keywords),
+                "context_count": len(context_terms),
+            },
+        }
